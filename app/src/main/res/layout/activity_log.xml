@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/actlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/backbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotationX="0"
+            android:rotationY="0">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+
+</android.widget.LinearLayout>
